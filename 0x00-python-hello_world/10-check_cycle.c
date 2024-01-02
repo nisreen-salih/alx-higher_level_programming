@@ -3,14 +3,14 @@
 #include <stdlib.h>
 
 /**
- * check - check if list cycle
- * @l: pointer to list
+ * check_cycle - check if list cycle
+ * @list: pointer to list
  * Return: 1 or 0
  */
 
-int check(listint_t *l)
+int check_cycle(listint_t *list)
 {
-	listint_t *s = l, *f = l;
+	listint_t *s = list, *f = list;
 
 	while (f && f->next)
 	{
