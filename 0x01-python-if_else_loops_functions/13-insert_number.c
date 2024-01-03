@@ -1,5 +1,5 @@
 #include "lists.h"
-#include "stdlib.h"
+#include <stdlib.h>
 
 /**
  * insert_node - insert in sorted list
