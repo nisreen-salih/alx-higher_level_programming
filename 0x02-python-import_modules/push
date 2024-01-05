@@ -1,5 +1,5 @@
 #!/bin/bash
-chmod +x *
+chmod +x *.py
 git add .
 git commit -m "0x02"
 git push

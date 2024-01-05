@@ -5,17 +5,17 @@ if __name__ == "__main__":
     if lien(sys.argv) != 4:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         exit(1)
-    x = int(sys.arg[1])
-    y = int(sys.argv[3])
-    oper =sys.argv[2]
-    if oper == "+":
-        print("{} + {} = {}".format(x, y, add(x, y)))
-    elif oper == "-":
-        print("{} - {} = {}".format(x, y, sub(x, y)))
-    elif oper == "*":
-        print("{} * {} = {}".format(x, y,mul(x, y)))
-    elif oper == "/":
-        print("{} / {} = {}".format(x, y, div(x, y)))
+    a = int(sys.arg[1])
+    b = int(sys.argv[3])
+    op =sys.argv[2]
+    if op == "+":
+        print("{} + {} = {}".format(a, b, add(a, b)))
+    elif op == "-":
+        print("{} - {} = {}".format(a, b, sub(a, b)))
+    elif op == "*":
+        print("{} * {} = {}".format(a, b, mul(a, b)))
+    elif op == "/":
+        print("{} / {} = {}".format(a, b, div(a, b)))
     else:
         print("Unknown operator. Available operators: +, -, * and /")
         exit(1)
