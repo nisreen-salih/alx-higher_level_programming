@@ -28,7 +28,7 @@ int aux_palindrom(listint_t **head, listint_t *end)
 		return (1);
 	if (aux_palindrom(head, end->next) && (*head)->n == end->n)
 	{
-		*head = (*head->next);
+		*head = (*head)->next;
 		return (1);
 	}
 	return (0);
