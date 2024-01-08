@@ -2,7 +2,7 @@
 
 /**
  * print_python_list_info - pront puthon info
- * 
+ *
  * @p: pyObject list
  */
 void print_python_list_info(PyObject *p)
