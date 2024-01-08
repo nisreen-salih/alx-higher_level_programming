@@ -24,12 +24,12 @@ int is_palindrome(listint_t **head)
 
 int aux_palindrom(listint_t **head, listint_t *end)
 {
-	if (enf == NULL)
+	if (end == NULL)
 		return (1);
 	if (aux_palindrom(head, end->next) && (*head)->n == end->n)
 	{
-		*head = (*head->next;
-				return (1);
+		*head = (*head->next);
+		return (1);
 	}
 	return (0);
 }
